@@ -1,0 +1,1 @@
+cmd_/home/pi/device-drivers/parameter_passing/passing.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/device-drivers/parameter_passing/passing.ko /home/pi/device-drivers/parameter_passing/passing.o /home/pi/device-drivers/parameter_passing/passing.mod.o;  true
